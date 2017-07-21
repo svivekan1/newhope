@@ -6,10 +6,10 @@ import java.util.Set;
 /**
  * Created by Sanjay.Vivekanandan on 14/07/2017.
  */
-public class RemoveDuplicates {
+public class RemoveDuplicates2 {
 
     public static void main(String[] args){
-        String inputString = "ABA";
+        String inputString = "abbabcddbabcdeedebc";
         char[] inputArray = inputString.toCharArray();
         remove_duplicates(inputArray);
 
@@ -20,25 +20,27 @@ public class RemoveDuplicates {
     }
 
     static void remove_duplicates(char[] str){
-        Set<Character> hashset =
-                new LinkedHashSet<Character>();
+        if(str == null || str.length == 0) {
+            return;
+        }
 
         int write_index = 0;
-        int read_index = 0;
+        for(int i = 0; i < str.length; i++) {
+            boolean found = false;
 
-        while (str[read_index] != '\0') {
-
-            if(!hashset.contains(str[read_index])) {
-
-                hashset.add(str[read_index]);
-                str[write_index] = str[read_index];
-                ++write_index;
+            for(int j = 0; j < write_index; j++) {
+                if(str[i] == str[j]) {
+                    found = true;
+                    break;
+                }
             }
 
-            ++read_index;
+            if(!found) {
+                str[write_index] = str[i];
+                write_index++;
+            }
         }
 
         str[write_index] = '\0';
     }
-
 }
