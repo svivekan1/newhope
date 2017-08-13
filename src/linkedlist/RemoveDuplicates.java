@@ -7,6 +7,20 @@ import java.util.HashSet;
  */
 public class RemoveDuplicates {
 
+    public static void main(String[] args) {
+        // Create LinkedListNode
+        LinkedListImp mylist = new LinkedListImp();
+        mylist.insertFirst(100);
+        mylist.insertFirst(100);
+        mylist.insertFirst(99);
+        mylist.insertFirst(88);
+        mylist.insertLast(9999999);
+
+        // call method
+        LinkedListNode updatedList = remove_duplicates(mylist.returnList());
+        mylist.displayList(updatedList);
+    }
+
     public static LinkedListNode remove_duplicates(LinkedListNode head)
     {
         if (head == null) {
