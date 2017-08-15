@@ -9,16 +9,16 @@ public class App {
 
     public static void main(String[] args) {
         LinkedListImp mylist = new LinkedListImp();
-        mylist.insertFirst(100);
-        mylist.insertFirst(50);
-        mylist.insertFirst(99);
-        mylist.insertFirst(88);
-        mylist.insertLast(9999999);
+        mylist.insertFirst(9);
+        mylist.insertFirst(28);
+        mylist.insertFirst(21);
+        mylist.insertFirst(14);
+        mylist.insertFirst(7);
 
         mylist.displayList();
 
-        LinkedListNode newList = mylist.returnList();
-        mylist.displayList(newList);
+//        LinkedListNode newList = mylist.returnList();
+//        mylist.displayList(newList);
 
     }
 }
