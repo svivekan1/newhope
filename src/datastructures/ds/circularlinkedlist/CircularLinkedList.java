@@ -1,6 +1,6 @@
 package datastructures.ds.circularlinkedlist;
 
-import ds.singlylinkedlist.Node;
+import datastructures.ds.singlylinkedlist.Node;
 
 public class CircularLinkedList {
 	
