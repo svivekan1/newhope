@@ -18,7 +18,7 @@ public class InorderSuccessorBST {
         System.out.println("Original Tree : ");
         display(root);
         System.out.println("---\n###");
-        System.out.println("Inorder Successor: " + inorder_successor_bst(root,75));
+        System.out.println("Inorder Successor: " + inorder_successor_bst(root,100));
     }
 
     static Node find_min(
