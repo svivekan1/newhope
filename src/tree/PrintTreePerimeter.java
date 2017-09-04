@@ -27,11 +27,9 @@ public class PrintTreePerimeter {
 
             if (root.left != null) {
                 root = root.left;
-            }
-            else if (root.right != null) {
+            } else if (root.right != null) {
                 root = root.right;
-            }
-            else {
+            } else {
                 break; // leaf node.
             }
             System.out.print(curr_val + " ");
@@ -48,11 +46,9 @@ public class PrintTreePerimeter {
 
             if (root.right != null) {
                 root = root.right;
-            }
-            else if (root.left != null) {
+            } else if (root.left != null) {
                 root = root.left;
-            }
-            else {
+            } else {
                 break; // leaf node.
             }
 
