@@ -1,7 +1,5 @@
 package linkedlist;
 
-import java.util.HashSet;
-
 /**
  * Created by sanjay on 13/08/2017.
  */

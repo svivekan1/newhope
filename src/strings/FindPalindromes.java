@@ -5,7 +5,7 @@ package strings;
  */
 public class FindPalindromes {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String inputString = "aaba";
         System.out.println(find_all_palindrome_substrings_2(inputString));
     }
@@ -16,7 +16,7 @@ public class FindPalindromes {
             if (input.charAt(j) != input.charAt(k)) {
                 break;
             }
-            System.out.print(input.substring(j, k+1) + ", ");
+            System.out.print(input.substring(j, k + 1) + ", ");
             count++;
         }
         return count;
@@ -24,9 +24,9 @@ public class FindPalindromes {
 
     public static int find_all_palindrome_substrings_2(String input) {
         int count = 0;
-        for(int i = 0 ; i < input.length() ; ++i) {
-            count+= find_palindromes_in_sub_string(input, i-1, i+1);// check for odd length palindromes
-            count+= find_palindromes_in_sub_string(input, i, i+1);// check for even length palindromes
+        for (int i = 0; i < input.length(); ++i) {
+            count += find_palindromes_in_sub_string(input, i - 1, i + 1);// check for odd length palindromes
+            count += find_palindromes_in_sub_string(input, i, i + 1);// check for even length palindromes
         }
         System.out.println();
         return count;

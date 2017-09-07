@@ -21,8 +21,7 @@ public class RemoveDuplicates {
         mylist.displayList(updatedList);
     }
 
-    public static LinkedListNode remove_duplicates(LinkedListNode head)
-    {
+    public static LinkedListNode remove_duplicates(LinkedListNode head) {
         if (head == null) {
             return head;
         }
@@ -37,8 +36,7 @@ public class RemoveDuplicates {
                 // Element not found in map, let's add it.
                 dup_set.add(curr.next.data);
                 curr = curr.next;
-            }
-            else {
+            } else {
                 // Duplicate node found. Let's remove it from the list.
                 curr.next = curr.next.next;
             }

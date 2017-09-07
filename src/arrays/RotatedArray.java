@@ -2,10 +2,11 @@ package arrays;
 
 public class RotatedArray {
     public static void main(String args[]) {
-        int a[] = { 10, 11, 12, 1, 2, 3, 4, 5, 6, 7, 8 };
+        int a[] = {10, 11, 12, 1, 2, 3, 4, 5, 6, 7, 8};
         RotatedArray r = new RotatedArray();
         System.out.println("Index of element 5 is " + r.findElement(a, 5));
     }
+
     public int findElement(int[] arrA, int element) {
         int low = 0;
         int high = arrA.length - 1;

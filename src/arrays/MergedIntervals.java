@@ -1,6 +1,8 @@
 package arrays;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class MergedIntervals {
     public static void main(String[] args) throws java.lang.Exception {

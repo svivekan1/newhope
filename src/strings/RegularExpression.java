@@ -5,8 +5,8 @@ package strings;
  */
 public class RegularExpression {
 
-    public static void main(String[] args){
-        System.out.println(match("aabbbbbcdda","a*bb*cdda"));
+    public static void main(String[] args) {
+        System.out.println(match("aabbbbbcdda", "a*bb*cdda"));
     }
 
     static boolean match(String text, String pattern, int i, int j) {
@@ -28,13 +28,14 @@ public class RegularExpression {
                     return false;
                 }
             }
-        } else if(i < text.length() && j < pattern.length() &&
+        } else if (i < text.length() && j < pattern.length() &&
                 (pattern.charAt(j) == '.' || pattern.charAt(j) == text.charAt(i))) {
             return match(text, pattern, i + 1, j + 1);
         }
 
         return false;
     }
+
     public static boolean match(String text, String pattern) {
         return match(text, pattern, 0, 0);
     }

@@ -7,7 +7,7 @@ public class LinkedListNode {
     public int data;
     public LinkedListNode next;
 
-    public void displayNode(){
-        System.out.println("{ "+ data + " } ");
+    public void displayNode() {
+        System.out.println("{ " + data + " } ");
     }
 }

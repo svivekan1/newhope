@@ -6,12 +6,12 @@ package strings;
 public class ReverseString {
 
 
-    public static void main(String[] args){
-         String inputString = "HELLOWORLD!";
-         char[] inputArray = inputString.toCharArray();
-         reverse_words(inputArray);
+    public static void main(String[] args) {
+        String inputString = "HELLOWORLD!";
+        char[] inputArray = inputString.toCharArray();
+        reverse_words(inputArray);
 
-        for (char c : inputArray){
+        for (char c : inputArray) {
             System.out.print(c);
             System.out.println();
         }
@@ -35,7 +35,7 @@ public class ReverseString {
         }
     }
 
-    public static void reverse_words (char[] sentence) {
+    public static void reverse_words(char[] sentence) {
 
         // Here sentence is a null-terminated string ending with char '\0'.
 
@@ -48,7 +48,7 @@ public class ReverseString {
         // in reverse order: "Hello World" -> "dlroW olleH".
 
         int len = sentence.length;
-        str_rev(sentence, 0, len-1);
+        str_rev(sentence, 0, len - 1);
 
         // Now, let's iterate the sentence and reverse each word in place.
         // "dlroW olleH" -> "World Hello"
@@ -66,8 +66,8 @@ public class ReverseString {
             }
 
             // find the end index of the word.
-            end = start+1;
-            if(end >= sentence.length-1){
+            end = start + 1;
+            if (end >= sentence.length - 1) {
                 break;
             }
             while (sentence[end] != '\0' && sentence[end] != ' ') {
@@ -76,7 +76,7 @@ public class ReverseString {
 
 
             // let's reverse the word in-place.
-            str_rev (sentence, start, end-1);
+            str_rev(sentence, start, end - 1);
 
             start = end;
         }
