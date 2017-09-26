@@ -5,8 +5,6 @@ package tree;
  */
 public class App {
 
-    public static Node root;
-
     public static void main(String arg[]) {
         Node root = new Node(100);
         Node x1 = new Node(50);
