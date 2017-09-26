@@ -2,6 +2,29 @@ package algo.mergesort;
 
 public class MergeSort {
 
+    /**
+     * Hopefully you were able to complete the above merge() method
+     * Below is a more challenging implementation.
+     * It's called an in-place merge.
+     * This is usually pretty difficult for even average programmers to
+     * wrap their head around. If you put in the effort to try and understand
+     * the below code, you will certainly get it.
+     * Here is an incentive for you to put in the time:
+     * If you can email me a detailed easy to read explanation
+     * in your own words about how the below code works, I'll
+     * provide you a 75% discount for all my current and future courses
+     * on my online school! my email address is imtiaz@eliminatecodefear.com
+     * <p>
+     * <br>
+     * <b> GOOD LUCK!<b>
+     *
+     * @param inputArray
+     * @param start
+     * @param mid
+     * @param end
+     */
+    private static int tempArray[]; // an array used for merging
+
     public static void sort(int inputArray[]) {
         sort(inputArray, 0, inputArray.length - 1);
     }
@@ -16,6 +39,13 @@ public class MergeSort {
         sort(inputArray, mid + 1, end); // sort right half
         merge(inputArray, start, mid, end); // merge sorted results into the inputArray
     }
+
+
+    // **************************************************************************
+
+    // ---------BELOW IS AN OPTIONAL ASSIGNMENT WITH A REWARD FOR YOU------------
+
+    // **************************************************************************
 
     public static void merge(int inputArray[], int start, int mid, int end) {
         int tempArray[] = new int[end - start + 1];
@@ -62,35 +92,6 @@ public class MergeSort {
         }
 
     }
-
-
-    // **************************************************************************
-
-    // ---------BELOW IS AN OPTIONAL ASSIGNMENT WITH A REWARD FOR YOU------------
-
-    // **************************************************************************
-    /**
-     * Hopefully you were able to complete the above merge() method
-     * Below is a more challenging implementation.
-     * It's called an in-place merge.
-     * This is usually pretty difficult for even average programmers to
-     * wrap their head around. If you put in the effort to try and understand
-     * the below code, you will certainly get it.
-     * Here is an incentive for you to put in the time:
-     * If you can email me a detailed easy to read explanation
-     * in your own words about how the below code works, I'll
-     * provide you a 75% discount for all my current and future courses
-     * on my online school! my email address is imtiaz@eliminatecodefear.com
-     * <p>
-     * <br>
-     * <b> GOOD LUCK!<b>
-     *
-     * @param inputArray
-     * @param start
-     * @param mid
-     * @param end
-     */
-    private static int tempArray[]; // an array used for merging
     // To use the mergeInPlace() method, you'll need to initialize tempArray as
     // shown on the next line inside of the wrapper sort() method.
     // tempArray = new int [inputArray.length];
