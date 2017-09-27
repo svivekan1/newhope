@@ -47,6 +47,7 @@ public class BinarySearch {
     }
 
     static int bin_search(int[] a, int key) {
+
         return binary_search_rec(a, key, 0, a.length - 1);
     }
 }
