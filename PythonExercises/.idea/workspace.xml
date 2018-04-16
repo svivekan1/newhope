@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ff03db-ad6f-45be-9e28-5908898df566" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/basic/StringLength.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/basic/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/../JavaExercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaExercises/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_4_jar.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_4_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/.idea/sbt.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/.idea/sbt.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/../ScalaExercises/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/default/scalaexercises$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/default/scalaexercises$sources/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/default/scalaexercises$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/default/scalaexercises$sources/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-compile.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-optional.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-plugin.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-pom.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-provided.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-runtime.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-test-internal.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-test.xml" afterPath="$PROJECT_DIR$/../ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises$sources-test.xml" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/../ScalaExercises/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/../ScalaExercises/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/../ScalaExercises/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../ScalaExercises/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/basic/CharFrequence.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/interview/python/basic/StringLength.py" afterPath="$PROJECT_DIR$/interview/python/basic/StringLength.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringLength.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringLength.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interview/python/basic/StringLength.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharFrequence.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview/python/basic/CharFrequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -73,6 +61,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/interview/python/basic/StringLength.py" />
+        <option value="$PROJECT_DIR$/interview/python/basic/CharFrequence.py" />
       </list>
     </option>
   </component>
@@ -82,7 +71,9 @@
     <option name="width" value="1938" />
     <option name="height" value="1098" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -146,7 +137,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.CharFrequence">
+    <configuration name="CharFrequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview/python/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonExercises" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview/python/basic/CharFrequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="StringLength" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,9 +174,14 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.StringLength" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CharFrequence" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.StringLength" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.CharFrequence" />
+        <item index="1" class="java.lang.String" itemvalue="Python.StringLength" />
       </list>
     </recent_temporary>
   </component>
@@ -227,8 +241,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interview/python/basic/StringLength.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/python/basic/CharFrequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
