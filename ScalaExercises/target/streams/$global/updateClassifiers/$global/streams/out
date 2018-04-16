@@ -282,24 +282,22 @@
 [debug] == resolving dependencies default#scalaexercises$sources;0.1->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\sanjay.vivekanandan\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\sanjay.vivekanandan\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\sanjay.vivekanandan\.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 		tried C:\Users\sanjay.vivekanandan\.ivy2\local\org.scala-lang\scala-reflect\2.12.4\srcs\scala-reflect-sources.jar
-[debug] 		tried C:\Users\sanjay.vivekanandan\.ivy2\local\org.scala-lang\scala-library\2.12.4\srcs\scala-library-sources.jar
-[debug] no default ivy user dir defined: set to C:\Users\sanjay.vivekanandan\.ivy2
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
 [debug] no default ivy user dir defined: set to C:\Users\sanjay.vivekanandan\.ivy2
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to C:\Users\sanjay.vivekanandan\.ivy2\cache
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\sanjay.vivekanandan\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (17ms)
+[debug] settings loaded (133ms)
 [debug] 	default cache: C:\Users\sanjay.vivekanandan\.ivy2\cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -308,28 +306,14 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (22ms)
-[debug] 	default cache: C:\Users\sanjay.vivekanandan\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried C:\Users\sanjay.vivekanandan\.ivy2\local\jline\jline\2.14.5\srcs\jline-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[debug] 		tried C:\Users\sanjay.vivekanandan\.ivy2\local\org.scala-lang\scala-compiler\2.12.4\srcs\scala-compiler-sources.jar
-[debug] no default ivy user dir defined: set to C:\Users\sanjay.vivekanandan\.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to C:\Users\sanjay.vivekanandan\.ivy2\cache
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (47ms)
+[debug] settings loaded (149ms)
 [debug] 	default cache: C:\Users\sanjay.vivekanandan\.ivy2\cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -338,28 +322,36 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar(src) (1221ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src) (1663ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.4!scala-library.jar(src) (2216ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src) (2535ms)
-[debug] :: resolution report :: resolve 133ms :: artifacts dl 2632ms
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\sanjay.vivekanandan\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\sanjay.vivekanandan\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (397ms)
+[debug] 	default cache: C:\Users\sanjay.vivekanandan\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/sanjay.vivekanandan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (514ms)
+[debug] 	default cache: C:\Users\sanjay.vivekanandan\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 479ms :: artifacts dl 797ms
 [debug] 	report for default#scalaexercises$sources;0.1 compile produced in C:\Interview\ScalaExercises\target\scala-2.12\resolution-cache\reports\default-scalaexercises$sources-compile.xml
 [debug] 	report for default#scalaexercises$sources;0.1 runtime produced in C:\Interview\ScalaExercises\target\scala-2.12\resolution-cache\reports\default-scalaexercises$sources-runtime.xml
 [debug] 	report for default#scalaexercises$sources;0.1 test produced in C:\Interview\ScalaExercises\target\scala-2.12\resolution-cache\reports\default-scalaexercises$sources-test.xml
@@ -371,4 +363,4 @@
 [debug] 	report for default#scalaexercises$sources;0.1 plugin produced in C:\Interview\ScalaExercises\target\scala-2.12\resolution-cache\reports\default-scalaexercises$sources-plugin.xml
 [debug] 	report for default#scalaexercises$sources;0.1 pom produced in C:\Interview\ScalaExercises\target\scala-2.12\resolution-cache\reports\default-scalaexercises$sources-pom.xml
 [debug] 	report for default#scalaexercises$sources;0.1 scala-tool produced in C:\Interview\ScalaExercises\target\scala-2.12\resolution-cache\reports\default-scalaexercises$sources-scala-tool.xml
-[debug] 	resolve done (133ms resolve - 2632ms download)
+[debug] 	resolve done (479ms resolve - 797ms download)
