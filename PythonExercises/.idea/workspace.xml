@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ff03db-ad6f-45be-9e28-5908898df566" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/2ndSmallestInList.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/CloneList.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/CommonLists.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/EmptyListChecker.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/LongerThanNinList.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/PrintFirst5AndLast%.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/RemoveDuplicates.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/interview/python/list/CountNumOfElementsInRange.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2ndSmallestInList.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2ndSmallestInList.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interview/python/list/2ndSmallestInList.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountNumOfElementsInRange.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview/python/list/CountNumOfElementsInRange.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,6 +61,7 @@
         <option value="$PROJECT_DIR$/interview/python/list/CommonLists.py" />
         <option value="$PROJECT_DIR$/interview/python/list/PrintFirst5AndLast%.py" />
         <option value="$PROJECT_DIR$/interview/python/list/2ndSmallestInList.py" />
+        <option value="$PROJECT_DIR$/interview/python/list/CountNumOfElementsInRange.py" />
       </list>
     </option>
   </component>
@@ -276,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524825344135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updates">
+      <created>1524837706008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524837706008</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -462,6 +474,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/python/list/CountNumOfElementsInRange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
